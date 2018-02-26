@@ -8,6 +8,12 @@ span {
 }
 
 p::After {
+  position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
   color:red;
   content: "Can't Beat Me";
   font-family: "Neucha";
